@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC2AA5524579C91007419AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2AA5424579C91007419AE /* AppDelegate.swift */; };
+		CDC2AA5724579C91007419AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2AA5624579C91007419AE /* SceneDelegate.swift */; };
+		CDC2AA5924579C91007419AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2AA5824579C91007419AE /* ContentView.swift */; };
+		CDC2AA5B24579C91007419AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC2AA5A24579C91007419AE /* Assets.xcassets */; };
+		CDC2AA5E24579C91007419AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC2AA5D24579C91007419AE /* Preview Assets.xcassets */; };
+		CDC2AA6124579C91007419AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC2AA5F24579C91007419AE /* LaunchScreen.storyboard */; };
+		CDC2AA6A24579E7A007419AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2AA6924579E7A007419AE /* NetworkManager.swift */; };
+		CDC2AA6C24579F52007419AE /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2AA6B24579F52007419AE /* PostData.swift */; };
+		CDC2AA6F2457A3A8007419AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2AA6E2457A3A8007419AE /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDC2AA5124579C91007419AE /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC2AA5424579C91007419AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC2AA5624579C91007419AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDC2AA5824579C91007419AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDC2AA5A24579C91007419AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC2AA5D24579C91007419AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDC2AA6024579C91007419AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC2AA6224579C91007419AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC2AA6924579E7A007419AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CDC2AA6B24579F52007419AE /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		CDC2AA6E2457A3A8007419AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC2AA4E24579C91007419AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC2AA4824579C91007419AE = {
+			isa = PBXGroup;
+			children = (
+				CDC2AA5324579C91007419AE /* Hacker News */,
+				CDC2AA5224579C91007419AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC2AA5224579C91007419AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2AA5124579C91007419AE /* Hacker News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC2AA5324579C91007419AE /* Hacker News */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2AA6824579E5E007419AE /* Models */,
+				CDC2AA5424579C91007419AE /* AppDelegate.swift */,
+				CDC2AA5624579C91007419AE /* SceneDelegate.swift */,
+				CDC2AA6D2457A38D007419AE /* Views */,
+				CDC2AA5A24579C91007419AE /* Assets.xcassets */,
+				CDC2AA5F24579C91007419AE /* LaunchScreen.storyboard */,
+				CDC2AA6224579C91007419AE /* Info.plist */,
+				CDC2AA5C24579C91007419AE /* Preview Content */,
+			);
+			path = "Hacker News";
+			sourceTree = "<group>";
+		};
+		CDC2AA5C24579C91007419AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2AA5D24579C91007419AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDC2AA6824579E5E007419AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2AA6924579E7A007419AE /* NetworkManager.swift */,
+				CDC2AA6B24579F52007419AE /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDC2AA6D2457A38D007419AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2AA5824579C91007419AE /* ContentView.swift */,
+				CDC2AA6E2457A3A8007419AE /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC2AA5024579C91007419AE /* Hacker News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC2AA6524579C91007419AE /* Build configuration list for PBXNativeTarget "Hacker News" */;
+			buildPhases = (
+				CDC2AA4D24579C91007419AE /* Sources */,
+				CDC2AA4E24579C91007419AE /* Frameworks */,
+				CDC2AA4F24579C91007419AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacker News";
+			productName = "Hacker News";
+			productReference = CDC2AA5124579C91007419AE /* Hacker News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC2AA4924579C91007419AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Riley Worstell";
+				TargetAttributes = {
+					CDC2AA5024579C91007419AE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CDC2AA4C24579C91007419AE /* Build configuration list for PBXProject "Hacker News" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC2AA4824579C91007419AE;
+			productRefGroup = CDC2AA5224579C91007419AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC2AA5024579C91007419AE /* Hacker News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC2AA4F24579C91007419AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC2AA6124579C91007419AE /* LaunchScreen.storyboard in Resources */,
+				CDC2AA5E24579C91007419AE /* Preview Assets.xcassets in Resources */,
+				CDC2AA5B24579C91007419AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC2AA4D24579C91007419AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC2AA6C24579F52007419AE /* PostData.swift in Sources */,
+				CDC2AA6F2457A3A8007419AE /* DetailView.swift in Sources */,
+				CDC2AA6A24579E7A007419AE /* NetworkManager.swift in Sources */,
+				CDC2AA5524579C91007419AE /* AppDelegate.swift in Sources */,
+				CDC2AA5724579C91007419AE /* SceneDelegate.swift in Sources */,
+				CDC2AA5924579C91007419AE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDC2AA5F24579C91007419AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC2AA6024579C91007419AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC2AA6324579C91007419AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC2AA6424579C91007419AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC2AA6624579C91007419AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacker News/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hacker News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileyworstell.Hacker-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC2AA6724579C91007419AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacker News/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hacker News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rileyworstell.Hacker-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC2AA4C24579C91007419AE /* Build configuration list for PBXProject "Hacker News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC2AA6324579C91007419AE /* Debug */,
+				CDC2AA6424579C91007419AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC2AA6524579C91007419AE /* Build configuration list for PBXNativeTarget "Hacker News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC2AA6624579C91007419AE /* Debug */,
+				CDC2AA6724579C91007419AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC2AA4924579C91007419AE /* Project object */;
+}
